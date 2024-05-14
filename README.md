@@ -8,15 +8,6 @@ via the ``STDIN`` of that subprocess.
 See http://www.gnuplot.info for more informations on the
 exact semantics of these commands.
 
-Installation
-------------
-
-The ``go-gnuplot`` package is ``go get`` installable:
-
-```sh
-$ go get github.com/sbinet/go-gnuplot
-```
-
 Example
 --------
 
@@ -49,7 +40,7 @@ func main() {
 }
 ```
 
-![plot-t-002](https://github.com/sbinet/go-gnuplot/raw/master/examples/imgs/plot002.png)
+![plot-t-002](https://github.com/nioelumijkee/go-gnuplot/raw/master/examples/imgs/plot002.png)
 
 
 Documentation
