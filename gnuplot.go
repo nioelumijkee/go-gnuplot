@@ -320,7 +320,7 @@ func (self *Plotter) SetPlotCmd(cmd string) (err error) {
 // Only valid styles are accepted:
 //      "lines",
 //      "points",
-//      "linepoints",
+//      "linespoints",
 // 		"impulses",
 //      "dots",
 // 		"steps",
@@ -330,7 +330,7 @@ func (self *Plotter) SetPlotCmd(cmd string) (err error) {
 // 		"pm3d"
 func (self *Plotter) SetStyle(style string) (err error) {
 	allowed := []string{
-		"lines", "points", "linepoints",
+		"lines", "points", "linespoints",
 		"impulses", "dots",
 		"steps",
 		"errorbars",
